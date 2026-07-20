@@ -1,0 +1,26 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+tmp/
+generated/
+*.log
+
+# Internal source material
+训练案例/
+training-data/
+private-examples/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,20 @@
+{
+  "name": "imagecreation-agent",
+  "interface": {
+    "displayName": "Imagecreation Agent"
+  },
+  "plugins": [
+    {
+      "name": "hologram-image-creator",
+      "source": {
+        "source": "local",
+        "path": "./plugins/hologram-image-creator"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

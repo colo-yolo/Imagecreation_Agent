@@ -1,0 +1,4 @@
+interface:
+  display_name: "全息图像与视频创作助手"
+  short_description: "基于团队流程引导新用户生成、修改图片与视频 Prompt"
+  default_prompt: "使用 $hologram-image-creator 把我的想法整理成可直接生成的图片或视频 Prompt。"
